@@ -114,9 +114,10 @@ if st.button("Thực hiện kiểm định"):
                 st.success(
                     "Có xu hướng tăng có ý nghĩa thống kê (p < 0.05)."
                 )
+                 elif result.trend == "decreasing":
+                st.success(
               "Có xu hướng giảm có ý nghĩa thống kê (p < 0.05)."
                 )
-
             else:
                 st.success(
                     "Có xu hướng đáng kể về mặt thống kê."
